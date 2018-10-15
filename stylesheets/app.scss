@@ -1,7 +1,7 @@
 @import 'vendors/normalize.scss';
 @import 'base/body.scss';
 
-.mitad {
+.divide {
 height: 100%;
 width: 50%;
 position: fixed;
@@ -9,61 +9,4 @@ z-index: 1;
 top: 0;
 overflow-x: hidden;
 padding-top: 20px;
-}
-
-.menu {
-  padding: 30px;
-  text-decoration: none;
-}
-
-.menu > a{
-  padding: 20px;
-  color: grey;
-  text-decoration: none;
-}
-
-.menu > a:hover{
-  text-decoration: underline;
-  text-decoration-color: aquamarine;
-}
-
-.logo {
-  padding: 50px 400px 100px; 
-}
-
-.izquierda {
-background-color: skyblue;
-background-image: url("/Users/RosalindaSantos/Documents/REPOS/ejercicios/images/imagen1.jpg");
-left: 0;
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.alineacion {
-  padding: 10px 400px 0px 50px;
-  margin-bottom: 30px;
-}
-
-.titulo {
-  margin-right: 70px;
-}
-
-.button {
-border: 2px solid #e68a00;
-border-radius: 40px;
-color:  #5e3206;
-padding: 10px ;
-font-weight: 700;
-background-color: #e68a00;
-text-decoration: none;
-}
-
-.button:hover {
-  text-decoration: underline;
-}
-
-
-.derecha {
-right: 0;
-background-color:#ffffe6;
 }
