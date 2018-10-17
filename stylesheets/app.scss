@@ -1,12 +1,104 @@
 @import 'vendors/normalize.scss';
 @import 'base/body.scss';
 
-.divide {
-height: 100%;
-width: 50%;
-position: fixed;
-z-index: 1;
-top: 0;
-overflow-x: hidden;
-padding-top: 20px;
+
+.card {
+  margin: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display:inline-grid;
+  background-color: #ffff;
+  text-transform: capitalize;
+}
+
+.card--code {
+  border: 2px solid none;
+  border-radius: 20px;
+  padding: 7px;
+  margin-top: 13px;
+  margin-bottom: 6px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.card--code-first_1 {
+  background-color: rgb(209, 243, 212);
+  color: rgb(52, 128, 52);
+  margin-left: 16px;
+}
+
+.card--code-first_2 {
+  background-color: rgb(243, 220, 209);
+  color: rgb(128, 80, 52);
+  margin-left: 16px;
+}
+
+.card--code-first_3 {
+  background-color: rgb(215, 209, 243);
+color: rgb(57, 52, 128);
+margin-left: 16px;
+}
+
+.card--code-first_4 {
+  background-color: rgb(243, 209, 209);
+  color: rgb(128, 52, 52);
+  margin-left: 16px;
+}
+
+.card--code-last {
+  background-color: #f4f4f4;
+  color: rgb(90, 87, 87);
+  float: right;
+  margin-right: 16px;
+}
+
+.card--info {
+  margin: 10px 26px 10px 16px;
+  display: block;
+}
+
+.card-date {
+  color: grey;
+  font-weight: 200;
+}
+
+.card-more {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(121, 118, 118);
+  margin-bottom: 20px;
+}
+
+.card-more:hover {
+color: black;
+transition: 0.9s;
+}
+
+.btn {
+  position: absolute;
+  right: 0px;
+  padding: 10px;
+  margin-right: 40px;
+}
+
+.btn--default {
+  background-color:rgb(214, 207, 207);
+	border-radius:28px;
+  color: rgb(92, 90, 90);
+	font-size:13px;
+	text-decoration:none;
+  padding: 9px;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+}
+
+.btn--default:hover {
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
